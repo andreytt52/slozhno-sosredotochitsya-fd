@@ -22,3 +22,15 @@
   --footer-logo-color: #db00ff;
   --accent-color: #ff0070;
 }
+
+@media (width >= 768px) {
+  :root {
+    --main-gap: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
