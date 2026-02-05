@@ -233,6 +233,13 @@
 }
 
 @media (width >= 1024px) {
+  .content-section {
+    display: grid;
+    gap: 20px 10px;
+  }
+}
+
+@media (width >= 1024px) {
   .what_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -286,7 +293,6 @@
   font-style: var(--main-text-size);
   line-height: 23.4px;
   margin-block-end: 10px;
-  font-style: var(--main-text-size);
 }
 
 .text-block__title {
