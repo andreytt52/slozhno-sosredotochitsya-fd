@@ -264,6 +264,7 @@
 
 .link__content_span {
   text-decoration: none;
+  cursor: default;
 }
 
 .link__content_span:hover {
