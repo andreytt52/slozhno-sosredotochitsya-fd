@@ -5,9 +5,23 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image: url(../images/cover-image-light.png);
+  --main-bg-color: #ecd4e1;
+  --main-text-color: #353430;
+  --main-heading-color: #353430;
+  --nav-hover-color: rgba(50, 49, 45, 0.4);
+  --title-decor: #ff8dcb;
+  --header-logo-color: #ffc2e6;
+  --header-logo-shadow: 4px 4px 0 rgba(255, 141, 203, 1);
+  --footer-logo-shadow: 2px 2px 0 rgba(255, 141, 203, 1);
+  --footer-logo-color: #db00ff;
+  --accent-color: #353430;
+  --text-shadow: #ff8dcb;
+  --record-display: none;
 }
 
+@media (width >=1024px) {
+  :root.theme-light {
+    --footer-logo-shadow: 2px 2px 0 rgba(255, 0, 112, 1);
+  }
+}
